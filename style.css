@@ -1,0 +1,15 @@
+body{margin-top: 21px;margin-right: 21px;margin-bottom: 200px; margin-left: 20px;background-color: gray; }
+table.table1 {margin-left: -2px;margin-right: -2px;margin-top: -23px;margin-bottom: -2px ; } 
+table.table2 {margin-left: -2px;margin-right: -2px;margin-top: -23px;margin-bottom: -2px ;} 
+table.table3 {margin-left: -2px;margin-right: -2px;margin-top: -23px;margin-bottom: -2px ;} 
+img{  display: block;margin: 0px auto;margin-top: -21;background-color: white;    border-color: black}
+h1{color:black;text-align: center;}
+h3{background-color: white;margin-top: 5px;text-decoration: underline;}
+p.dataPersonal{text-align: center;margin-top: 0; margin-bottom: -1;background-color: transparent;}
+p.perfilProfecional{margin-top: -21px;}
+p.formacion1{margin-top: -21px;}
+p.actualizacion{text-align: left;font-style:oblique ;margin-bottom: -200;background-color: transparent;}
+p{ background-color: white;margin-top: -5px; margin-bottom: -1px;}
+td{background-color: white;min-width: 322px;}
+td.curso{font-weight: bold;}
+  
