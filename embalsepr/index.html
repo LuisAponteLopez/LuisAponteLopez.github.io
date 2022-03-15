@@ -1,0 +1,46 @@
+
+<html>
+  <head> 
+    <title>Embalse Puerto Rico</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+  </head>
+
+  <body onload="comenzar()">
+
+  <div id="mapid" style=" height:100%;
+  width: 100%;"></div>
+ 
+  
+
+  <div class="dropup">
+    
+  <button class="dropbtn">Embalse<br>Puerto Rico </button>
+  <div class="dropup-content">
+    <p ><br>Embalse Puerto Rico es una aplicación para buscar y visualizar el estado actual de los embalses en Puerto Rico utilizando datos del Servicio Geológico de los Estados Unidos (USGS por sus siglas en inglés). Dependiendo del tráfico en el servidor (y los instrumentos del USGS) el tiempo de búsqueda puede variar. Según USGS los datos tienen estado provisional y podrian variar luego de una revisión. De ser necesario recarge la página.</p>
+    <p>La posicion de los triangulo indica la tendencia del nivel y el color de fondo es proporcional al nivel de alerta </p>
+    <p>Oprima en los triangulos para obtener mas información y una gráfica del nivel en los pasadas días .</p>
+    <p>Por otro lado, el arco muestra el nivel del agua actual. El color y el tamaño de fondo es proporcional al nivel de alerta.(</p>
+    <p>El código de colores, y los niveles de alerta están basadas en información oficial provista en <A HREF="http://acueductospr.com">acueductospr.com</A></p>
+    <p> Embalse Puerto Rico es un proyecto del curso diseño
+       de aplicaciones para la web y moviles del Departamento de Matemáticas de la Universidad de Puerto Rico en Humacao . Pueden enviar sus preguntas, comentarios, o sugerencias a: <A HREF="mailto: luis.aponte23@upr.edu"> luis.aponte23@upr.edu</A></p>
+</div>
+</div>
+  <script src="app1.js"> 
+  
+  </script>
+
+
+
+  
+
+  </body>
+
+</html>
